@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+*{
+  font-family: "Gabriela", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin:0; padding: 0;
+  box-sizing:border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: none;
+  transition: all .2s linear;
+}
+
+html{ 
+    font-size: medium;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background: #fcbcc8;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.required-field::after {
+    content: " *";
+    color: red;
+}
+.btn-primary{
+    background-color: #a4153f;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-primary:hover{
+    background-color: #5a0e25;
+    color: #ffff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.btn-outline-secondary:hover{
+    background-color: #5a0e25;
+    cursor: pointer;
+    transition: all .3s ease;
+}
